@@ -557,3 +557,43 @@ createHtmlElement(elementHTML,"div",".page5","page5_textBlock",
 "<h2>Лидер в образовании для руководителей</h2><p>Duis aute irure dolor в репрехендерит в сладострастном velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, загорелся in culpa qui officia deserunt mollit anim id est Laborum.</p><div class='page5_textBlockButton'><a href=''>ПОДРОБНЕЕ</a></div>");
 createHtmlElement(elementHTML,"div",".page5","page5_imgBlock2");
 
+
+
+// ----------------------------------------------------section6-----------------------
+
+
+
+createHtmlElement(elementHTML,"section","main","page6");
+createHtmlElement(elementHTML,"div",".page6","page6_BLockBackground1B");
+createHtmlElement(elementHTML,"div",".page6","page6_BLockBackground2Y");
+createHtmlElement(elementHTML,"div",".page6","page6_BLockImg");
+createHtmlElement(elementHTML,"div",".page6","page6_BLockWithVarBlock");
+
+for (let i = 0; i<3;i++ ){
+
+switch(i){
+
+   case 0:
+      createHtmlElement(elementHTML,"div",".page6_BLockWithVarBlock","varBlock","<div class='varImg'></div><h2>Компьютери та ІТ</h2> ");
+
+   break
+
+   case 1:
+      createHtmlElement(elementHTML,"div",".page6_BLockWithVarBlock","varBlock","<div class='varImg'></div><h2>Аналітика Данних</h2> ");
+
+   break
+
+   case 2:
+      createHtmlElement(elementHTML,"div",".page6_BLockWithVarBlock","varBlock","<div class='varImg'></div><h2>Розробка</h2> ");
+
+   break
+
+
+
+
+
+}
+
+
+
+}
