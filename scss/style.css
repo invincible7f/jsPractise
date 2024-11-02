@@ -364,4 +364,25 @@ main {
   top: 12px;
 }
 
+.page6 {
+  display: flex;
+  flex-direction: "column";
+  flex-wrap: wrap;
+  height: 1012px;
+}
+.page6 .page6_BLockBackground1B {
+  background-color: #292f52;
+  height: 500px;
+  width: 100%;
+}
+.page6 .page6_BLockBackground2Y {
+  position: absolute;
+  width: 916px;
+  height: 543px;
+  background-color: #f1c50e;
+  border-radius: 20px;
+  margin-top: 245px;
+  margin-left: 900px;
+}
+
 /*# sourceMappingURL=style.css.map */

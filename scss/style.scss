@@ -480,3 +480,36 @@ a{
  }
 
 }
+
+
+
+// --------------------------page6---------------------------
+
+
+.page6{
+
+ @include flexDirCol("column");
+  
+ height:1012px;
+ 
+ .page6_BLockBackground1B{
+
+ background-color:rgb(41, 47, 82) ;
+ height: 500px;
+ width: 100%;
+
+
+ }
+
+ .page6_BLockBackground2Y{
+ 
+  position: absolute;
+  width: 916px;
+  height: 543px;
+  background-color: $buttonColor;
+  border-radius: 20px;
+  margin-top: 245px;
+  margin-left: 900px;
+
+ }
+}
