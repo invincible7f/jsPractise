@@ -1,0 +1,482 @@
+
+@import "variables.scss";
+@import "mixins.scss";
+
+
+*{
+    margin-right: 0px;
+     margin: 0px;
+     padding: 0px;
+    
+    }
+    
+    body{
+    
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+    
+    
+    }
+    a{
+    
+     text-decoration: none;
+     color:black
+    
+    
+    }
+    
+    p{
+    
+     cursor: default;
+    
+    
+    }
+    main{
+        width: 100%;
+        height: 100%;
+    
+    
+    
+    }
+    
+    .mainPage{
+        text-align: center; 
+        background-image: url("../classmates-standing-with-textbooks.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 902px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        
+    }
+    
+    .mainPage h1{
+    
+    @include font(white,90px ,500);
+    
+    top: 320px;
+    // color: white;
+    // font-weight: 500;
+    /* line-height: 0.95em; */
+    position: relative;
+    // font-size: 90px;
+    z-index: 1;
+    opacity: 1;
+    cursor:default;
+    }
+    
+    
+    .mainPage p{
+    position: relative;
+     font-size: 1.7em;
+      color:aliceblue;
+      top: 480px;
+      z-index: 1;
+    
+    
+    }
+    .buttonBox{
+      position: relative;
+      width: 100vw;
+      height: 91px;
+      margin-top: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+       /* background-color: brown; */
+      z-index: 1;
+    
+    
+    
+    }
+    
+    .mainPageButton{
+      
+     background-color:$buttonColor;
+     margin: 30px;
+     margin-top: 21px;
+     height: 50px;
+     width: 171px;
+     border-radius: 100px;
+     text-align: center;
+    
+     a {
+    
+    position: relative;
+     font-size: 1.2em;
+     top: 10px;
+     
+    
+    
+    
+    }
+    
+    }
+    
+    
+   
+    /* ==================================Section2=========================== */
+    
+    .page2{
+    
+     height: 100vh;
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     
+   
+  
+    
+    }
+    
+   
+    .page2Block1{
+
+   
+    width: 50%;
+    
+    h2{
+
+    @include font(black, 45px, 600);
+    text-align: center;
+    line-height: 50px;
+    margin-left: $marginLeft;
+    margin-top: 120px;
+    width: 600px;
+
+
+    }
+
+    .blockImg{
+            width:567px;
+            height: 342px;
+            margin-left: $marginLeft;
+            margin-top: 40px;
+            background-image: url("../serious-men-women-standing-with-books-looking-camera.jpg");
+            background-size: cover;
+            border-radius: 50px;
+           
+    }
+
+
+    p{
+      @include font(black, 20px, 300);
+      margin-left: $marginLeft + 130px;
+      width: 300px;
+      margin-top: 60px;
+
+
+
+    }
+
+    }
+
+
+
+    .page2Block2{
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+   
+      width: 50%;
+      
+      
+
+
+     }
+
+     .courses{
+      @include font(black, 25px,500);
+      @include _margin(-100px,10px);
+      text-align: center;
+      
+
+     }
+    
+     .course1{
+
+      margin-top: 220px;
+
+
+      
+     }
+     
+     .arrowImage{
+     @include _margin($marginLeft + 250px , 60px);
+     width: 64px;
+     
+     scale: 1.3;
+     
+    
+     }
+
+.page3_Block1{
+
+height: 372px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: $buttonColor;
+
+
+
+div{
+  @include _margin(30px,0px);
+ height: 400px;
+ width: 15%;
+ background-size: cover;
+ padding-right: 20px;
+ background-repeat: no-repeat;
+ box-shadow: 5px 5px 15px
+}
+
+
+
+}
+
+
+.page3_Block2{
+
+height: 764px;
+background-color: rgb(41, 47, 82);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.page3_BlockInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  @include _margin(30px,260px);
+ height: 400px;
+ width: 306px;
+ background-color:white;
+ border-radius: 10px;
+
+
+ h3{
+  @include _margin(0px,21px);
+  @include font(black,20px,600);
+  text-align: center;
+  text-transform: uppercase;
+ }
+p{
+
+width: 230px;
+@include font(black,17px,300);
+@include _margin(35px,30px);
+text-align:center;
+
+
+
+}
+
+img{
+
+height: 64px;
+width: 64px;
+scale: 1.1;
+@include _margin(120px,0px)
+
+}
+
+a{
+
+  @include _margin(117px,30px);
+  @include font(black,18px,400);
+  width: 65px;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+}
+
+
+
+.page4{
+  height: 934px;
+ display: flex;
+ flex-wrap: wrap;
+ height: 934px;
+ 
+
+
+h2{
+  text-align: center;
+position: absolute;
+width: 100%;
+@include font(black,70px,500);
+@include _margin(0px,60px);
+
+
+
+
+
+}
+
+
+
+.page4_img{
+
+width: 526px;
+height:575px ;
+background-image: url('../pretty-girl-transperent-glasses-stays-with-her-laptop-park.jpg');
+background-size: cover;
+@include _margin($marginLeft+150px,230px);
+border-radius: 20px
+
+}
+
+.page4_CheckMark{
+@include flexDirCol($directionColumn);
+@include font($buttonColor,90px,500);
+@include _margin(0,225px);
+
+position:relative;
+left:100px;
+
+
+}
+
+
+.page4_CheckMark p{
+
+  @include _margin(0px,20px)
+
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+.page4_TextBlock{
+
+ @include _margin(150px,250px);
+
+
+
+
+
+  p{
+  
+
+width: 400px;
+@include font(black,18px,300);
+padding-bottom: 30px;
+
+  }
+}
+
+// -------------------------------------------section5-----------------
+
+
+
+.page5{
+
+ @include flexDirCol('raw');
+ justify-content: end;
+ height: 983px;
+
+ 
+ 
+ 
+ .page5_BLock1{
+  width: 50%;
+  height: 800px;
+  background-color: rgb(41, 47, 82);
+
+ }
+
+ .page5_imgBlock{
+  position: absolute;
+  width: 935px;
+  height: 551px;
+  left: $marginLeft+150px;
+  margin-top: 100px;
+  background-image: url('../young-students-learning-together-group-study.jpg');
+  background-size: cover;
+  border-radius: 25px;
+  
+
+ }
+
+ .page5_textBlock{
+  @include flexDirCol('column'){
+
+  justify-content: left;
+
+  };
+  position: absolute;
+  height: 475px;
+  width:600px;
+  background-color: $buttonColor;
+  left: $marginLeft +290px;
+  margin-top: 450px;
+
+  h2{
+
+    @include font(black, 35px,700);
+    width: 400px;
+    @include _margin(40px, 70px);
+    line-height: 40px;
+
+
+  }
+
+  p{
+
+  @include font(black, 18px,300);
+  width: 450px;
+  @include _margin(40px, -60px)
+
+  }
+
+ }
+
+ .page5_imgBlock2{
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  margin-top: 575px;
+  left: 1080px;
+  background-image: url('../dreamy-graduate-woman-smiling-thinking-sitting-with-books-white-surface.jpg');
+  background-size: cover;
+  background-position-y: -50px;
+ 
+ }
+
+
+
+ .page5_textBlockButton{
+background-color: aqua;
+height: 47px;
+width: 193px;
+text-align: center;
+margin-left: -450px;
+margin-top: 100px;
+border-radius: 20px;
+background-color:  rgb(41, 47, 82);
+a{
+  @include font(white, 18px,400);
+
+ position: relative;
+ top: 12px;
+  
+
+
+}
+ }
+
+}

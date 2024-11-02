@@ -1,0 +1,30 @@
+@mixin font( $textColor, $fontSize, $fontWeight){
+ 
+    color: $textColor;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    cursor: default;
+   
+   
+   
+   }
+
+   @mixin _margin($marginLeft,$marginTop){
+   margin-left: $marginLeft;
+   margin-top: $marginTop;
+
+
+
+
+
+   }
+
+   @mixin flexDirCol($direction){
+
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: wrap;
+    @content;
+
+
+   }
